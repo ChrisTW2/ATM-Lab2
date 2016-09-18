@@ -23,11 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/TransactionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -72,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputScanner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputScanner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/InputScanner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -83,16 +104,6 @@
                 <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/worsley/chris/Lab2/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -142,16 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enums.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Enums.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -172,15 +173,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/worsley/chris/Lab2/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Enums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/InputScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Display.java" />
-        <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/worsley/chris/Lab2/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/UserManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/worsley/chris/Lab2/UserManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -333,6 +335,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="worsley.chris.ATM.Lab2" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.UserManagerTest.userNameAndPasswordTest">
     <configuration default="false" name="UserManagerTest.userNameAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -899,7 +906,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474216329408</updated>
-      <workItem from="1474216332942" duration="15240000" />
+      <workItem from="1474216332942" duration="16598000" />
     </task>
     <servers />
   </component>
@@ -936,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15240000" />
+    <option name="totallyTimeSpent" value="16598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1896" height="990" extended-state="0" />
@@ -1031,30 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/worsley/chris/Lab2/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1076,6 +1059,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/InputScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1091,6 +1095,14 @@
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1064#1065#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,15 +1123,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/InputScanner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="162">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worsley/chris/ATM/Lab2/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
           </folding>
         </state>
       </provider>
