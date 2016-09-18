@@ -15,13 +15,15 @@ public class UserManagerTest extends Enums {
     UserManager userManager = new UserManager();
     User user = new User();
 
+
     @Test
     public void userNameAndPasswordTest() {
+
+        HashMap<String, String> testingUsernameAndPassword = new HashMap<String, String>();
+        testingUsernameAndPassword.put("Crank", "Coder");
         user.setUsername("Crank");
         user.setPassword("Coder");
-        HashMap<String, String> testingUsernameAndPassword = new HashMap<String, String>();
-        testingUsernameAndPassword.put(user.getUsername(), user.getPassword());
-        userManager.setUserNameAndPassword("Crank", "Coder");
+        userManager.setUserNameAndPassword(user, user);
         HashMap<String, String> actual = userManager.getUserNameAndPassword();
 
         Assert.assertEquals("expecting Username Crank and Password Coder",testingUsernameAndPassword, actual);

@@ -6,7 +6,6 @@ import java.util.HashMap;
  * Created by christopherworsley on 9/18/16.
  */
 public class UserManager extends Enums {
-    User user = new User();
 
     private HashMap<String, String> userNameAndPassword = new HashMap<String, String>();
 
@@ -17,8 +16,8 @@ public class UserManager extends Enums {
     public UserManager(){
     }
 
-    public void setUserNameAndPassword(String userName, String password){
-        userNameAndPassword.put(user.getUsername(), user.getPassword());
+    public void setUserNameAndPassword(User userName, User password){
+        userNameAndPassword.put(userName.getUsername(), password.getPassword());
     }
     public HashMap<String, String> getUserNameAndPassword(){
         return userNameAndPassword;
